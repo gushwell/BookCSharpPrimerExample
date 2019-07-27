@@ -1,0 +1,6 @@
+﻿public class Book : Product {
+    public string Isbn { get; private set; }
+    public Book(string name, string isbn) : base(name) {
+        this.Isbn = isbn;
+    }
+}

@@ -1,0 +1,10 @@
+﻿ static class MyClass {
+     static string text = "";
+     static string Text {
+         get { return text; }
+         set { text = value; }
+     }
+     static int GetNumber() {
+         return int.Parse(Text);
+     }
+ }

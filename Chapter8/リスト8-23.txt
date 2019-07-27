@@ -1,0 +1,12 @@
+﻿    // これは完全なコードではありません。
+    // 制約を付加できるということを示すだけの目的の例です。
+    public class GenericSample<T> where T : IComparable {
+        ...
+        public void Execute(T value) {
+            if (value.CompareTo(_prev) > 0) {   // 比較できる
+                items[size++] = x;
+            }
+        }
+        ...
+
+    }

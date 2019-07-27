@@ -1,0 +1,7 @@
+﻿        static IEnumerable<DateTime> GetDays(DateTime fromDate) {
+            var date = fromDate;
+            while (true) {
+                yield return date;
+                date = date.AddDays(1);
+            }
+        }

@@ -1,0 +1,10 @@
+﻿using Gush = Gushwell.Lib;
+using FBGraph = FooBar.Graph;
+
+class Program {
+    static void Main(string[] args) {
+        Gush.SuperChart chart1 = new Gush.SuperChart();
+        FBGraph.SuperChart chart2 = new FBGraph.SuperChart();
+        ...
+     }
+}

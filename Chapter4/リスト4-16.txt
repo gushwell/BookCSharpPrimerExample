@@ -1,0 +1,3 @@
+﻿ArrayList list = new ArrayList();
+list.Add(54);
+int n = (int)list[0];

@@ -1,0 +1,4 @@
+﻿    public abstract class LogWriter {
+        public abstract void Write(string format, params object[] args);
+        public abstract void Write(string arg);
+    }

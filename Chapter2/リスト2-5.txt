@@ -1,0 +1,4 @@
+﻿books[0].title = "伊豆の踊り子";
+books[0].author = "川端康成";
+books[0].price = 380;
+books[0].publisher = "新潮社";

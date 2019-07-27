@@ -1,0 +1,16 @@
+﻿
+void DoSomething01(int n) {
+    int result = Function_A(n);
+    // result を使った処理
+    ...
+}
+void DoSomething02(int n) {
+    int result = Function_B(n);
+    // result を使った処理
+    ...
+}
+void DoSomething03(int n) {
+    int result = Function_C(n);
+    // result を使った処理
+    ...
+}

@@ -1,0 +1,9 @@
+﻿    class ReadonlySample {
+        private readonly string _name = "ReadonlySample";
+        private readonly int _minNum;
+        private readonly int _maxNum;
+        public ReadonlySample(int min, int max) {
+            _minNum = min;
+            _maxNum = max;
+        }
+    }

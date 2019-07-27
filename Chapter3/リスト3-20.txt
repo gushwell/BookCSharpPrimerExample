@@ -1,0 +1,10 @@
+﻿            ConsoleLogWriter log1 = new ConsoleLogWriter();
+            log1.Write("{0} {1}", DateTime.Now, "sample");
+
+            int count = 10;
+            PlainTextLogWriter log2 = new PlainTextLogWriter();
+            log2.Write("{0} {1}", DateTime.Now, count);
+
+            Exception exception = new Exception();
+            EventLogWriter log3 = new EventLogWriter();
+            log3.Write(exception.ToString());

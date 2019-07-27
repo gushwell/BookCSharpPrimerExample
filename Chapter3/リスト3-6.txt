@@ -1,0 +1,6 @@
+﻿Employee person = new Employee {
+    ID = 100,
+    Name = "山﨑直宏",
+    Age = 23,
+    DeptName = "第一営業部",
+};

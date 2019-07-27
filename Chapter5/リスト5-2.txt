@@ -1,0 +1,7 @@
+﻿List<Book> list = new List<Book>();
+list.Add(new Book("伊豆の踊子"));
+list.Add(new Book("吾輩は猫である"));     // (*1)
+list.Add(new Book("銀河鉄道の夜"));
+
+Book book = new Book("吾輩は猫である");  // (*2)
+int index = list.IndexOf(book);          // -1が返る

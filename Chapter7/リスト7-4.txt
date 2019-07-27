@@ -1,0 +1,5 @@
+﻿        public static string[] ReadText(string filename) {
+            if (string.IsNullOrEmpty(filename))
+                throw new System.ArgumentException("引数filenameが不正です");
+            return File.ReadAllLines(filename);
+        }

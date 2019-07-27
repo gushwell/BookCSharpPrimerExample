@@ -1,0 +1,8 @@
+﻿    [Flags]
+    public enum FontStyle {
+        Regular = 0,      // どのビットもオフならばRegular
+        Bold = 1,         // 1ビット目が1なら Bold
+        Italic = 2,       // 2ビット目が1なら Italic
+        Underline = 4,    // 3ビット目が1なら Underline
+        Strikeout = 8,    // 4ビット目が1なら Strikeout
+    }

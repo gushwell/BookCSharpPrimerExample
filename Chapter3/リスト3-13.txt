@@ -1,0 +1,7 @@
+﻿Employee emp = new Employee();
+emp.ID = 100;
+emp.Name = "谷口瑶子";
+emp.Age = 24;
+emp.DeptName = "第一営業部";
+Person person = emp;                 // empをPerson型の変数に代入
+Console.WriteLine(person.Format());

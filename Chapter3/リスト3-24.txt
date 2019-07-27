@@ -1,0 +1,15 @@
+﻿    public abstract class MyClass {
+        public string Name { get; set; }
+        public int Value { get; set; }
+        public abstract void DoWork();
+    }
+
+    public class DerivedClass : MyClass {
+        public sealed override void DoWork() {
+            DoSomething();
+        }
+
+        private void DoSomething() {
+            ;
+        }
+    }

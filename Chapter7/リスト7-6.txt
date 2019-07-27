@@ -1,0 +1,6 @@
+﻿try {
+    string[] lines = ReadText("");
+} catch (System.ArgumentException e) {
+    Console.WriteLine(e.ToString());
+    throw;   // 例外を再度投げる
+}

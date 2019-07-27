@@ -1,0 +1,6 @@
+﻿class Book {
+    public string title;       // 書籍名
+    public string author;      // 著者
+    public int price;          // 価格
+    public string publisher;   // 出版社
+}

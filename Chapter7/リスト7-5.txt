@@ -1,0 +1,7 @@
+﻿static void DoSomething() {
+    try {
+        string[] lines = ReadText("");
+    } catch (System.ArgumentException e) {
+        Console.WriteLine(e.ToString());
+    }
+}

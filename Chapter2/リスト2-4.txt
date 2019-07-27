@@ -1,0 +1,5 @@
+﻿Book[] books = new Book[4];
+books[0] = new Book();
+books[1] = new Book();
+books[2] = new Book();
+books[3] = new Book();

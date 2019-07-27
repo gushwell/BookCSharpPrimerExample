@@ -1,0 +1,4 @@
+﻿Magazine mag = obj as Magazine;
+if ( mag != null ) {
+    ...  // magはMagazine型であることが保証される
+}

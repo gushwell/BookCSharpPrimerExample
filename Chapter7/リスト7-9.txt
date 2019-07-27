@@ -1,0 +1,21 @@
+﻿private Employeemanager empmgr = new Employeemanager();
+
+private Employee FindEmployee(int code) {
+    Employee emp = empmgr.Find(code);  // 社員コードによる検索
+    if (emp == null) {
+        // 必ず見つかるはずなのに、見つからなかった。
+        string msg = string.Format("{0}の社員がみつかりません", code);
+        throw new EmployeeNotFoundException(msg);
+    }
+    return emp;
+}
+
+public void DoSomething(int code) {
+    try {
+        Employee emp = FindEmployee(code);  // 社員コードによる検索
+        //   ... 見つかった Employeeに対する処理
+
+    } catch (EmployeeNotFoundException e) {
+        MessageBox.Show(e.Message);
+    }
+}

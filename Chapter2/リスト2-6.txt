@@ -1,0 +1,6 @@
+﻿Book book = new Book();
+book.title = "伊豆の踊り子";
+book.author = "川端康成";
+book.price = 380;
+book.publisher = "新潮社";
+books[0] = book;

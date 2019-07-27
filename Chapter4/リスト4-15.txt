@@ -1,0 +1,2 @@
+﻿DateTime dt = DateTime.Today;
+string s = string.Format("{0}",dt);

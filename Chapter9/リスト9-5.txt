@@ -1,0 +1,10 @@
+﻿public IEnumerator<int> GetEnumerator() {
+    try {
+        // これはコンパイル・エラーになる。
+        for (int i = 0; i < 10; i += 2) {
+            yield return i;
+        }
+    } catch {
+        Console.WriteLine("Error");
+    }
+}

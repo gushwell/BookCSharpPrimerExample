@@ -1,0 +1,11 @@
+﻿public class Foo {
+    public string DoSomething(int n) {
+        return (n + n).ToString();
+    }
+}
+
+public class Bar {
+    public int DoSomething(int n) {
+        return n * 3;
+    }
+}
